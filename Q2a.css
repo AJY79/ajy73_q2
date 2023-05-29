@@ -1,0 +1,10 @@
+/* Set the fonts for the page */
+body,
+input,
+textarea,
+select 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0rem;
+
+}
