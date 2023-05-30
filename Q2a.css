@@ -10,14 +10,46 @@ body
 {
     background-color: rgb(174, 209, 239);
     padding: 15px;
-    box-shadow: 0 0 3px blackf;
+    box-shadow: 0 0 3px black;
 }
 
 .header li
 {
     display: inline;
-    padding: 45px;
+    padding: 40px;
 }
+
+.header li a 
+{
+    color: black;
+    padding: 13px;
+    text-decoration: none;
+    transition: .3s ease;
+}
+.header li a:hover
+{
+   color: royalblue;
+}
+.button1 
+{
+    
+    width: 100px;
+    color: antiquewhite;
+    background-color: blue;
+    float: right;
+    position: relative;
+    top: -15px;
+    right: 25px;
+    box-shadow: 0 0 2px black;
+    cursor: pointer;
+
+}
+.button1:hover
+{
+    color: blue;
+    background-color: antiquewhite;
+}
+
    
    
   
