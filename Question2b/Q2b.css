@@ -110,7 +110,88 @@ img
     width: 100%;
 }
 
+@media screen and (max-width: 600px) {
+    
+    .header 
+    {
+        display: inline-block;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .header li a {
+    padding: 0.5rem;
+    display: inline-block;
+    float: none;
+   
+      
+    }
 
+    .button1 
+    {
+        float: left;
+        left: 10px;
+        top: 10px;
+    }
+
+    .user
+    {
+        float: right;
+        top: -5px;
+        right: 20px;
+    }
+
+    .logo
+    {
+        
+        float: none;
+        width: auto;
+    }
+
+    @media screen and (max-width:1000px) {
+    
+        .header 
+        {
+            display: inline-block;
+            box-sizing: border-box;
+            width: 100%;
+        }
+        .header li a {
+        padding: 0.5rem;
+        display: inline-block;
+        float: none;
+       
+          
+        }
+    
+        .button1 
+        {
+            float: left;
+            left: 10px;
+            top: 10px;
+        }
+    
+        .user
+        {
+            float: right;
+            top: -5px;
+            right: 20px;
+        }
+    
+        .logo
+        {
+            
+            float: none;
+            width: auto;
+        }
+        
+
+    }
+   
+  
+   
+    
+    
+  
 
 
 
@@ -124,3 +205,4 @@ img
 
 
 
+}
